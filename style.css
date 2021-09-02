@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+.bg-gray{
+    background: rgb(228, 208, 242);
+}
+.header-top {
+    justify-content: center;
+}
+
+.header-top .container {
+    border-bottom: 1px solid #dedede !important;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: 800;
+
+}
+
+.product-slide,
+.beauty-slide,
+.btn-slide {
+    font-weight: bold;
+}
+
+.carousel-caption {
+    top: 40%;
+    text-shadow: black;
+}
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    background: black;
+    position: absolute;
+    opacity: 0.7;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card-img {
+    transition: all 1s;
+}
+
+.card:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.img-product {
+    -webkit-transition: all .8s ease-in-out;
+}
+
+.img-product:hover {
+    opacity: 0.4;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+.price{
+    font-size: 1.25rem;
+}
+@media (max-width: 576px) {
+
+    .header-top,
+    .menu .container,
+    .navbar-toggler {
+        font-size: .5rem;
+    }
+
+    .header-top .container {
+        text-align: center;
+        align-items: center;
+    }
+
+    .menu-top {
+        text-align: center !important;
+    }
+
+    .phone {
+        text-align: center !important;
+    }
+
+    .brand {
+        font-size: 1rem;
+    }
+
+    .product-slide,.about {
+        font-size: .5rem;
+    }
+
+    .beauty-slide {
+        font-size: 1.2rem;
+    }
+
+    .btn-slide {
+        font-size: .6rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 0.8rem;
+    }
+
+    .category,
+    .trendy-product,.sub {
+        font-size: 1.5rem;
+    }
+    .form-control,.btn-sub,footer li,footer li h6{
+        font-size: .4rem;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .header-top .container {
+        text-align: center;
+        align-items: center;
+    }
+
+    .menu-top {
+        text-align: center !important;
+    }
+
+    .phone {
+        text-align: center !important;
+    }
+
+    .header-top,
+    .menu .container,
+    .navbar-toggler {
+        font-size: .8rem;
+    }
+
+    .brand {
+        font-size: 1.5rem;
+    }
+
+    .product-slide,.about {
+        font-size: .7rem;
+    }
+
+    .beauty-slide {
+        font-size: 1.5rem;
+    }
+
+    .btn-slide {
+        font-size: .8rem;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+
+    .category,
+    .trendy-product ,.sub{
+        font-size: 1.75rem;
+    }
+    .form-control,.btn-sub,footer li,footer li h6{
+        font-size: .5rem;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .menu-top {
+        text-align: center !important;
+
+    }
+
+    .phone {
+        text-align: center !important;
+    }
+
+    .header-top,
+    .menu .container,
+    .navbar-toggler {
+        font-size: 1rem;
+    }
+
+    .brand {
+        font-size: 2.0rem;
+    }
+
+    .product-slide,.about {
+        font-size: .8rem;
+    }
+
+    .beauty-slide {
+        font-size: 2rem;
+    }
+
+    .btn-slide {
+        font-size: 1rem;
+    }
+
+    .card-title {
+        font-size: 1.8rem;
+    }
+
+    .card-text {
+        font-size: 1.2rem;
+    }
+
+    .category,
+    .trendy-product,.sub {
+        font-size: 2rem;
+    }
+    .form-control,.btn-sub,footer li,footer li h6{
+        font-size: .8rem;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .header-top {
+        font-size: 1.2rem;
+    }
+
+    .brand {
+        font-size: 2.5rem;
+    }
+
+    .nav-link {
+        margin-right: 35px !important;
+    }
+
+    .menu .container {
+        padding: 2% 18%;
+    }
+
+    .product-slide,.about {
+        font-size: 1.2rem;
+    }
+
+    .beauty-slide {
+        font-size: 3rem;
+    }
+
+    .btn-slide {
+        font-size: 1.5rem;
+    }
+
+    .card-title {
+        font-size: 2rem;
+    }
+
+    .card-text {
+        font-size: 1.25rem;
+    }
+
+    .category,
+    .trendy-product,.sub {
+        font-size: 2.25rem;
+    }
+    .form-control,.btn-sub,footer li,footer li h6{
+        font-size: 1rem;
+    }
+}
